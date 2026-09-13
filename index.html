@@ -164,6 +164,9 @@ effectively by a cloud or hosting provider.</p>
 
 <section>
     <h2>CSC Allas Object-Storage exercises</h2>
+    <p>For this assignment, I created a new GitHub repository containing my HTML webpage and Dockerfile. After that, I logged in to CSC Allas using my Haka credentials and created an S3 bucket where I uploaded all screenshots and media files.</p>
+    <p>I made the media public so they can be displayed directly in my webpage. Next, I created a new project in Rahti and connected it to my GitHub repo using the Import from Git feature, which automatically built and deployed my Docker image.</p>
+    <p>Finally,I created a Route to get the public Rahti URL, and my webpage now loads text from Rahti and images from Allas, demonstrating the PaaS + S3 architecture required in the assignment.Please find the screen shots below as the evidances</p>
 <figure>
     <img
         src ="https://a3s.fi/swift/v1/Assignment_3/mycsc home.png";
@@ -173,6 +176,7 @@ effectively by a cloud or hosting provider.</p>
     <figcaption>
         This image is stored as an object in CSC Allas
     </figcaption>
+    <br>
 
      <img
         src ="https://a3s.fi/swift/v1/Assignment_3/csc rahti.png";
@@ -209,6 +213,13 @@ effectively by a cloud or hosting provider.</p>
     <figcaption>
         This image is stored as an object in CSC Allas
     </figcaption>
+
+    <h2>What I Learned</h2>
+    <p>
+        In Assignment 2, I deployed a simple webpage using Rahti with automatic build from GitHub.  
+        In this assignment, I learned how to use Allas (S3 storage) to store media files separately from the PaaS application.  
+        This demonstrates how cloud architectures separate static storage (S3) from application hosting (PaaS).
+    </p>
 
 </figure>
 </section>
